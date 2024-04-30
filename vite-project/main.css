@@ -1,0 +1,36 @@
+* {
+  font-family: url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+  margin: 0 auto;
+  padding: 0 auto;
+  list-style: none;
+  box-sizing: border-box;
+  background-color: var(--mv-color-1-backgroun);
+}
+
+:root {
+  --mv-color-1-backgroun: #8caaa2;
+  --mv-color-2-background2: #efaaa3;
+  --mv-color-3: #ff8591;
+  --mv-color-4: #5a9b95;
+  --mv-color-5: #44878f;
+  --mv-color-6-font: #303030;
+
+  --mv-margin-xs: 10px;
+  --mv-margin-s: 20px;
+  --mv-margin-m: 30px;
+  --mv-margin-l: 40px;
+  --mv-margin-xl: 50px;
+  --mv-margin-section: 80px;
+
+  --mv-padding-xs: 10px;
+  --mv-padding-s: 20px;
+  --mv-padding-m: 30px;
+  --mv-padding-l: 40px;
+  --mv-padding-xl: 50px;
+
+  --mv-gap-xs: 10px;
+  --mv-gap-s: 20px;
+  --mv-gap-m: 30px;
+  --mv-gap-l: 40px;
+  --mv-gap-xl: 50px;
+}
