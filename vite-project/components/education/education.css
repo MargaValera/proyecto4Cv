@@ -1,0 +1,36 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 3px solid var(--mv-color-3);
+  border-radius: 3px;
+  padding: 15px;
+  margin: 15px;
+  background-color: none;
+  color: var(--mv-color-6-font);
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards > .cardsImg {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  align-self: center;
+}
+.cards > h3 {
+  font-size: 20px;
+  align-self: center;
+}
+.cards > #relevantCoursesTitle {
+  font-size: medium;
+  padding: 5px;
+}
+.cards > ul,
+li,
+p {
+  background-color: var(--mv-color-2-background);
+  padding: 5px;
+}

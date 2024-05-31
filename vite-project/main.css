@@ -1,14 +1,15 @@
 * {
   font-family: url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-  margin: 0 auto;
-  padding: 0 auto;
+  background-color: var(--mv-color-1-background);
   list-style: none;
   box-sizing: border-box;
-  background-color: var(--mv-color-1-backgroun);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 :root {
-  --mv-color-1-backgroun: #8caaa2;
+  --mv-color-1-background: #8caaa2;
   --mv-color-2-background2: #efaaa3;
   --mv-color-3: #ff8591;
   --mv-color-4: #5a9b95;

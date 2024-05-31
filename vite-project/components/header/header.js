@@ -31,6 +31,5 @@ export function createHeader(data) {
   navBar.appendChild(ul)
 
   document.body.appendChild(header)
-
   return navBar
 }

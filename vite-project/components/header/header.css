@@ -1,29 +1,40 @@
-@import url('./main.css');
+/* @import url('./main.css'); */
 
 header {
   display: flex;
   flex-wrap: wrap;
   background-color: var(--mv-color-2-background2);
   flex-direction: row;
-  padding: 15px;
+  padding: 10px;
   align-items: center;
-  height: 250px;
+  height: 150px;
+  width: 100%;
 }
 header > h4 {
-  font-size: larger;
+  font-size: 40px;
   color: var(--mv-color-6-font);
+  width: 40%;
+  text-align: center;
 }
 
-header > ul {
+header > nav {
   width: 60%;
   display: flex;
+
   flex-direction: column;
-  align-items: flex-start;
+  align-content: center;
 }
-header > ul > li > a {
+nav > ul {
+  display: flex;
+  flex-direction: row;
   padding: 10px;
-  justify-content: space-around;
-  margin: 10px;
+}
+
+nav > ul .elements {
+  display: flex;
+  flex-wrap: wrap;
+
+  color: var(--mv-color-6-font);
 }
 
 header > h4,
