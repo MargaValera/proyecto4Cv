@@ -11,6 +11,8 @@
   width: 40%;
   justify-content: center;
   align-items: center;
+  position: relative;
+  display: inline-block;
 }
 
 .cards > .cardsImg {
@@ -33,4 +35,11 @@ li,
 p {
   background-color: var(--mv-color-2-background);
   padding: 5px;
+}
+.divElements {
+  display: none;
+  position: absolute;
+}
+.cards:hover .divElements {
+  display: block;
 }

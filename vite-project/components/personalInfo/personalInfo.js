@@ -7,7 +7,7 @@ export const projects = (data) => {
 
 export function personal(data) {
   const personal = document.createElement('section')
-  personal.id = 'infoPersonal'
+  personal.id = 'PersonalInfo'
 
   const propertiesToShow = ['name', 'address', 'email']
 
