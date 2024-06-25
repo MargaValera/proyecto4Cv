@@ -12,6 +12,16 @@
   font-size: 20px;
   text-align: center;
   padding: 10px;
+  margin: 10px;
+  color: var(--mv-color-6-font);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: var(--mv-color-3);
+}
+
+#title:hover {
+  background-color: var(--mv-color-4);
+  transform: scale(1.1);
 }
 
 div > img {
@@ -24,22 +34,25 @@ div > img {
   background-color: var(--mv-color-3);
 }
 
-#hero > ul {
-  display: grid;
-  width: auto;
-  grid-template-columns: repeat(auto-fill, minmax(50px));
-  grid-gap: 10px;
-  padding: 5px;
-  border: 3px solid var(--mv-color-3);
-  border-radius: 5px;
-  padding: 5px;
+#skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
-#hero > ul > li {
-  padding: 3px;
-  color: var(--mv-color-6-font);
+#skills > li {
+  width: auto;
+
+  padding: 5px;
+  margin: 5px;
+  color: var(--mv-color-7-font);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
 }
-#hero > ul > li :hover {
-  text-shadow: black;
-  text-transform: var(--mv-color-3);
+
+.hide {
+  visibility: hidden;
 }

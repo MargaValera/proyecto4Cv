@@ -3,9 +3,8 @@ export const data = {
     name: 'Marga Valera',
     address: 'Sevilla, Spain',
     email: 'mrgvalera@gmail.com',
-    avatar: 'https://www.flaticon.es/iconos-gratis/mama',
-    aboutMe:
-      'Passionate about literature, mandarins, and animals, my background reflects a unique blend of interests and skills. Originally studying law, I developed a deep understanding of justice and society. Now diving into web development, I enjoy the creativity of language and the logic of coding. My affinity for animals extends beyond interest, shaping both my personal and professional decisions. With a curious mind and a commitment to growth, I thrive in dynamic environments, ready to contribute value to any team.'
+    phone: '647031947',
+    avatar: 'https://www.flaticon.es/iconos-gratis/mama'
   },
 
   education: {
@@ -43,35 +42,32 @@ export const data = {
     'React',
     'Node.js',
     'Express.js',
-    'MongoDB',
-    'RESTful API',
-    'Git',
-    'Frontend and Backend Development'
+    'Power Platform',
+    'Power Apps',
+    'Power BI'
   ],
   projects: [
     {
       title: 'Pc Components Website',
       description:
         'I designed a lightweight version of a website inspired by `Pc Components`, ideal for selling computers and accessories, aiming to practice my web development skills by implementing filters and various technologies.',
-      link: 'https://github.com/MargaValera/proyecto2-pc-componentes',
-      preview:
-        'https://unsplash.com/es/fotos/black-flat-screen-computer-monitor-beside-white-computer-keyboard-Hpaq-kBcYHk?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash'
+      link: 'https://github.com/MargaValera/proyecto2-pc-componentes'
     },
     {
       title: 'Books Store',
       description:
         'I designed a small website for book sales, inspired by my passion for literature. It`s a site with responsive design, implementing my knowledge of HTML and CSS3',
-      link: 'https://github.com/MargaValera/Proyecto-1-Bookstore',
-      preview:
-        'https://images.unsplash.com/photo-1550399105-c4db5fb85c18?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxpYnJvc3xlbnwwfHwwfHx8MA%3D%3D'
+      link: 'https://github.com/MargaValera/Proyecto-1-Bookstore'
     },
     {
       title: 'Portfolio Website',
       description:
         'Built a professional portfolio website to showcase my web development skills and projects. The site features a clean, responsive design and highlights my work as a developer.',
-      link: 'http://github.com/#',
-      preview:
-        'https://images.unsplash.com/photo-1602141310822-27dd85a337a0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHBvcnRhZm9saW98ZW58MHx8MHx8fDA%3D'
+      link: 'http://github.com/#'
     }
-  ]
+  ],
+  redes: {
+    LinkIn: 'https://www.linkedin.com/in/marga-valera-2a52601a2/',
+    GitHub: 'https://github.com/MargaValera'
+  }
 }

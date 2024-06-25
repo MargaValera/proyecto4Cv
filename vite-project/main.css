@@ -15,6 +15,7 @@
   --mv-color-4: #5a9b95;
   --mv-color-5: #44878f;
   --mv-color-6-font: #303030;
+  --mv-color-7-font: whitesmoke;
 
   --mv-margin-xs: 10px;
   --mv-margin-s: 20px;
@@ -22,16 +23,180 @@
   --mv-margin-l: 40px;
   --mv-margin-xl: 50px;
   --mv-margin-section: 80px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 15px;
+  margin: 15px;
+  color: var(--mv-color-6-font);
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: auto;
+  /* background-color: var(--mv-color-4); */
+  /* width: 100%; */
+}
 
-  --mv-padding-xs: 10px;
-  --mv-padding-s: 20px;
-  --mv-padding-m: 30px;
-  --mv-padding-l: 40px;
-  --mv-padding-xl: 50px;
+.cards > .cardsImg {
+  width: auto;
+  height: auto;
+  max-height: 200px;
+  margin: 10px;
+  align-self: center;
+}
+.cards > h3 {
+  font-size: 20px;
+  align-self: center;
+}
+.cards > #relevantCoursesTitle {
+  font-size: medium;
+  padding: 5px;
+}
+.cards > ul,
+p {
+  background-color: var(--mv-color-2-background);
+  padding: 5px;
+}
+.divElements {
+  display: none;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
 
-  --mv-gap-xs: 10px;
-  --mv-gap-s: 20px;
-  --mv-gap-m: 30px;
-  --mv-gap-l: 40px;
-  --mv-gap-xl: 50px;
+.divElements > ul,
+.divElements > div,
+.divElements > p,
+.divElements > h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.divElements > ul > li {
+  padding: 7px;
+}
+.cards:hover .divElements {
+  display: block;
+}
+.cards:hover .cardsImg {
+  display: none;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--mv-color-2-background2);
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+header > h4 {
+  font-size: 45px;
+  color: var(--mv-color-6-font);
+  width: 40%;
+  text-align: center;
+}
+
+header > nav {
+  width: 60%;
+  display: flex;
+}
+
+#navBar {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#navBar > button {
+  padding: 10px;
+  margin: 5px;
+  color: var(--mv-color-6-font);
+  border-radius: 10px;
+  cursor: pointer;
+}
+#navBar > button:hover {
+  background-color: var(--mv-color-3);
+  transform: scale(1.2);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+header > h4,
+nav {
+  background-color: var(--mv-color-2-background2);
+}
+
+@media screen and (max-width: 500px) {
+  #navBar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    background-color: rgba(239, 171, 163, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  #navBar > button {
+    padding: 7px;
+    margin: 7px;
+    color: var(--mv-color-6-font);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .hidden {
+    visibility: hidden;
+  }
+  #menu {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    border-radius: 7px;
+    justify-self: flex-end;
+    right: 5%;
+    cursor: pointer;
+    background-color: var(--mv-color-2-background2);
+  }
+}
+
+@media screen and (min-width: 500px) {
+  #menu {
+    display: none;
+  }
+}
+
+#personal-info {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--mv-color-2-background2);
+  color: var(--mv-color-6-font);
+  padding: 8px;
+}
+#personal-info > #divLogos {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--mv-color-2-background2);
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+#personal-info > #divPes {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  justify-content: space-around;
+  background-color: var(--mv-color-2-background2);
 }

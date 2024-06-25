@@ -1,0 +1,16 @@
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  height: auto;
+  padding: 15px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 3px solid var(--mv-color-7-font);
+}
+
+footer > h5,
+#footerP {
+  color: var(--mv-color-7-font);
+}

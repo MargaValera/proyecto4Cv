@@ -1,5 +1,3 @@
-import './education.css'
-
 export const education = (data) => {
   const educationContainer = document.createElement('section')
   educationContainer.classList.add('cards')
@@ -44,7 +42,5 @@ export const education = (data) => {
   divEducation.appendChild(relevantCourses)
 
   educationContainer.appendChild(divEducation)
-  // educationContainer.appendChild(relevantCoursesTitle)
-  // educationContainer.appendChild(relevantCourses)
   document.body.appendChild(educationContainer)
 }
